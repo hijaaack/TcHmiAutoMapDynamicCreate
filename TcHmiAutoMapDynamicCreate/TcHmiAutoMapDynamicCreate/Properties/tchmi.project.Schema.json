@@ -1,0 +1,13 @@
+﻿{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {
+    "UC_Object": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UC\\UC_Object.usercontrol.json",
+      "id": "tchmi:project#/definitions/UC_Object",
+      "type": "object"
+    }
+  }
+}

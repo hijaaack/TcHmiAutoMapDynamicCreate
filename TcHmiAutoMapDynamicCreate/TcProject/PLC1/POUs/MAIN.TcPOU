@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <POU Name="MAIN" Id="{9880868f-e3b3-4c69-bbd6-7bfcfc7dadf9}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM MAIN
+VAR	
+
+	{ attribute 'TcHmiSymbol.AddSymbol' }
+	fbObject1 : FB_Object;	
+	{ attribute 'TcHmiSymbol.AddSymbol' }
+	fbObject2 : FB_Object;	
+	{ attribute 'TcHmiSymbol.AddSymbol' }
+	fbObject3 : FB_Object;	
+	{ attribute 'TcHmiSymbol.AddSymbol' }
+	fbObject4 : FB_Object;	
+	{ attribute 'TcHmiSymbol.AddSymbol' }
+	fbObject5 : FB_Object;	
+	{ attribute 'TcHmiSymbol.AddSymbol' }
+	fbObject6 : FB_Object;	
+	
+END_VAR]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[fbObject1(nObjectID:= 1);
+fbObject2(nObjectID:= 2);
+fbObject3(nObjectID:= 3);
+fbObject4(nObjectID:= 4);
+fbObject5(nObjectID:= 5);
+fbObject6(nObjectID:= 6);]]></ST>
+    </Implementation>
+    <LineIds Name="MAIN">
+      <LineId Id="2" Count="0" />
+      <LineId Id="21" Count="1" />
+      <LineId Id="32" Count="2" />
+    </LineIds>
+  </POU>
+</TcPlcObject>

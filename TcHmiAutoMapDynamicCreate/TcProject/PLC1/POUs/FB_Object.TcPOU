@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <POU Name="FB_Object" Id="{12e9474a-b44e-46d9-bd90-28532e113731}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION_BLOCK FB_Object
+VAR_INPUT
+	nObjectID : INT;
+END_VAR
+VAR
+	bActive : BOOL;
+	fValue : REAL;
+	fbRandom : DRAND;
+END_VAR]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[IF bActive THEN
+	fbRandom(Seed:= nObjectID, NUm=> fValue);
+END_IF]]></ST>
+    </Implementation>
+    <LineIds Name="FB_Object">
+      <LineId Id="9" Count="0" />
+      <LineId Id="17" Count="1" />
+    </LineIds>
+  </POU>
+</TcPlcObject>

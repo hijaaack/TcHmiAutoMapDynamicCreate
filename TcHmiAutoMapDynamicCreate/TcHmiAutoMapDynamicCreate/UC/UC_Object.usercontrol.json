@@ -1,0 +1,23 @@
+﻿{
+  "parameters": [
+    {
+      "name": "data-tchmi-object",
+      "displayName": "Object",
+      "visible": true,
+      "type": "tchmi:server#/definitions/PLC1.FB_Object",
+      "category": "",
+      "description": "",
+      "requiredOnCompile": false,
+      "readOnly": false,
+      "bindable": true,
+      "heritable": true,
+      "propertyName": "Object",
+      "propertySetterName": "setObject",
+      "propertyGetterName": "getObject",
+      "refTo": ""
+    }
+  ],
+  "virtualRights": [],
+  "$schema": "./../../Packages/Beckhoff.TwinCAT.HMI.Framework.12.758.8/runtimes/native1.12-tchmi/Schema/UserControlConfig.Schema.json",
+  "description": ""
+}
