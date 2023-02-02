@@ -18,4 +18,4 @@ Requirements: HMI 1.12.758.8 or newer.
 
 Sample project to dynamically create a UserControl with the symbol auto mapping function. 
 
-![enter image description here](https://user-images.githubusercontent.com/75740551/216348377-00a8c208-40a6-462a-9b6c-9f220ee2d69f.mp4)
+[![Watch the video](https://user-images.githubusercontent.com/75740551/216351387-c4df2d69-6384-4b70-b6bc-81f1f7d09ad5.png)](https://user-images.githubusercontent.com/75740551/216348377-00a8c208-40a6-462a-9b6c-9f220ee2d69f.mp4)
